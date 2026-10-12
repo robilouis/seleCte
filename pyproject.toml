@@ -9,8 +9,7 @@ authors = [
 ]
 license = {file = "LICENSE"}
 dependencies = [
-    "ipykernel>=6.29.5",
-    "jinja2>=3.1.6",
+    "jinja2>=3.1.6",  # required by pandas' .style accessor, used in utils.visualize_room
     "matplotlib>=3.9.2",
     "numpy>=2.0.2",
     "pandas>=2.3.3",
