@@ -14,7 +14,7 @@ authors:
     family-names: Robinet
 repository-code: "https://github.com/robilouis/seleCte"
 license: MIT
-version: 0.9.0
+version: 0.10.0
 keywords:
   - procedural content generation
   - level generation
