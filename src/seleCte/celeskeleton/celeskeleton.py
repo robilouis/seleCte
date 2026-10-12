@@ -698,7 +698,6 @@ class Room:
             encoding="utf-8",
         ) as f:
             json.dump(obj=json_room, fp=f, ensure_ascii=False, indent=4)
-            f.close()
 
         logger.info(msg=f"Saved lvl data in folder {output_dir}")
 
@@ -1035,7 +1034,6 @@ class Celeskeleton:
             encoding="utf-8",
         ) as f:
             json.dump(obj=json_skeleton, fp=f, ensure_ascii=False, indent=4)
-            f.close()
 
         logger.info(msg=f"Saved lvl data in folder {output_dir}.")
 
