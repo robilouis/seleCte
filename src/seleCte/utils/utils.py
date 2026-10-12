@@ -1423,7 +1423,19 @@ def variance_astar_path(
     room: Room,
     path: list[tuple[int, int]],
 ) -> float:
-    """Avg. distance to tiles + NL entities."""
+    """Return the population variance of path distances to safe ground.
+
+    Measure each position to the nearest solid tile or non-lethal entity with
+    ``get_min_dist_to_nle``. These are the same distances that
+    ``evaluate_astar_path`` averages.
+
+    Args:
+        room: The room containing the path.
+        path: Path positions as ``(row, column)`` pairs.
+
+    Returns:
+        The population variance of the Chebyshev distances along the path.
+    """
     l_dist_path_to_nle: list[int] = []
     for path_pos in path:
         l_dist_path_to_nle.append(get_min_dist_to_nle(room, path_pos))
