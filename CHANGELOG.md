@@ -92,7 +92,7 @@
   notebook, whose saved output pins the eleven entities it must produce
 * Removed `data_loader.ipynb` and `data_to_level.ipynb`
 
-## [0.7.0] 31.07.2026
+## [0.7.0] 30.07.2026
 
 * Graduated `recombine_fg_entities` from a notebook to a module - first step towards a
   data-free repo, where the game data is extracted by whoever owns the game rather than
@@ -120,7 +120,7 @@
   `python -m seleCte.pcg.preprocessing.recombine_fg_entities`. Removed the unreferenced
   `rooms_40x23/` and `40x23_fg/` artifacts
 
-## [0.6.0] DD.07.2026
+## [0.6.0] 24.07.2026
 
 * Refactoring after repo audit to match publishability standards
   * Address broken imports
