@@ -1,12 +1,12 @@
 # seleCte
 
-Procedurally generated [Celeste](https://www.celestegame.com/) levels that the game can
-load and you can play.
+Generates [Celeste](https://www.celestegame.com/) levels procedurally that the game can
+load and you can eventually play.
 
 seleCte learns the tile patterns of Celeste's 824 vanilla rooms with a multi-dimensional
 Markov chain, draws a level layout, fills each room by sampling from the model, and
 encodes the result as a `.bin` map. It started as a Master's thesis and is an active
-research project: the levels load, start on a player spawn and end on a crystal heart,
+personal side-project: the levels load, start on a player spawn and end on a crystal heart,
 but they are not yet reliably *good*. See [Limitations](#limitations).
 
 ## Quickstart
