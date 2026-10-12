@@ -44,8 +44,3 @@ src/seleCte/data/levels/original/
 # Coverage output
 .coverage
 htmlcov/
-
-# Agent working notes - kept local, not part of the published project. The
-# durable parts were moved into the code and the issue tracker: the playability
-# baseline decision is on `utils.astar`, the rework design is issue #47.
-.claude/
